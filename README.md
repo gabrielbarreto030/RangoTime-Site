@@ -1,4 +1,4 @@
-# RangoTime-Site
+# Site RangoTime
 
 A website in HTML + CSS + JS about a Snack Shop
 
