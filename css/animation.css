@@ -1,0 +1,13 @@
+/*Cabecalho*/
+#cabecalho a{
+    color: #000;
+    text-decoration: none;
+    
+}
+#cabecalho a:hover{
+    color:#ccc;
+    transition: 1s;
+}
+#cabecalho li{
+    
+}

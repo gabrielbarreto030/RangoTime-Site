@@ -1,0 +1,270 @@
+* {
+    padding: 0;
+    margin: 0;
+    /*font-weight: bold;*/
+}
+
+h1 {
+    font-weight: bold;
+    font-family: 'Segoe UI', 'Noto Sans JP', Geneva, Verdana, sans-serif;
+    font-size: 42px;
+}
+
+/*Header*/
+
+#cabecalho {
+    top: 0;
+    height: 10vh;
+    text-align: center;
+    font-family: 'Segoe UI';
+    width: 100%;
+    padding-top: 20px;
+}
+
+#cabecalho li {
+    top: -350px;
+    position: relative;
+    width: 15%;
+    height: 10vh;
+    display: inline-block;
+    margin: 10 0 10 0;
+    font-size: 20px;
+    padding: 20px;
+}
+
+#cabecalho li img {
+    z-index: 20;
+    top: 300px;
+    right: 40%;
+    position: relative;
+}
+
+/*Introduction*/
+
+#introduction {
+    width: 100%;
+    text-align: center;
+}
+
+#introduction h1 {
+    padding: 5px 20px 50px 20px;
+}
+
+#introduction p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20;
+    color: #707070;
+}
+
+#introduction-content {
+    margin: 0 auto;
+    padding: 15px;
+    width: 50%;
+    height: 50vh;
+}
+
+/*Menu*/
+
+#menu {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url("../imgs/cardapio-especial.png");
+}
+
+#menu-content {
+    position: relative;
+    top: 40px;
+    margin: 20px;
+    height: 90vh;
+    background-color: #ffffff;
+    width: 60%;
+    border: 2px solid #000000;
+    border-radius: 25px;
+}
+
+#menu ul {
+    text-align: center;
+}
+
+#menu h1 {
+    text-align: center;
+}
+
+#menu li {
+    font-family: Segoe Print;
+    padding: 20px;
+    font-size: 30;
+    display: inline-block;
+}
+
+#menu img {
+    width: 170px;
+    height: 170px;
+}
+
+/*Contact*/
+
+#contact {
+    width: 100%;
+    height: 150vh;
+}
+
+#contact img {
+    padding: 20px;
+    position: relative;
+    float: right;
+    margin-top: 150px;
+}
+
+#contact #form {
+    margin: 100px;
+    position: relative;
+    text-align: start;
+    color: #707070;
+    width: 50%;
+}
+
+#contact h1 {
+    font-family: 'Segoe Print', serif;
+    position: relative;
+    padding: 20;
+}
+
+#contact input {
+    width: 60%;
+}
+
+#contact textarea {
+    width: 80%;
+    height: 20vh;
+}
+
+#contact input, textarea {
+    opacity: 0.5;
+    color: rgb(112, 112, 122);
+}
+
+#contact button {
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Segoe UI', serif;
+    border: 1px solid #979797;
+    margin: 40px 40px;
+    border-radius: 30px;
+    color: rgba(112, 112, 122, .7);
+}
+
+#contact h1, input, textarea, button {
+    border-radius: 1px;
+    font-family: 'Sitka Text', serif;
+    font-size: 30px;
+    padding: 10px;
+    margin: 60px 10px 10px 10px;
+    width: 70%;
+}
+
+.erro {
+    background-color: #A52A2A;
+}
+
+/*Footer*/
+
+#footer {
+    display: flex;
+    font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+    height: 45vh;
+    width: 100%;
+    background-image: url('../imgs//madeirafeita.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card {
+    margin: 5px;
+    background-color: lightcoral;
+    height: 60px;
+    width: 100px;
+}
+
+.footer {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+}
+
+#footer-start {
+    font-size: 30px;
+}
+
+#footer-start bold {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#footer-start p {
+    padding: 20px;
+    margin: 30px 20px 20px 0px;
+}
+
+#footer-start-card {
+    display: flex;
+}
+
+#footer-center p {
+    margin: 10px;
+}
+
+#footer-center {
+    font-size: 25px;
+    margin-top: 100px;
+    padding: 20px;
+    text-align: center;
+}
+
+#footer-end {
+    font-size: 17px;
+    margin: 2s0px;
+}
+
+#phone {
+    display: flex;
+    vertical-align: middle;
+}
+
+#footer-end p {
+    margin: 20px;
+}
+
+/*ERRO*/
+
+.fraseerro {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 12px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/*confirmação*/
+
+.confirmacao {
+    position: fixed;
+    left: 40%;
+    top: 50%;
+    box-shadow: grey;
+}
+
+/*Carrosel*/
+
+.banner {
+    position: relative;
+    overflow: auto;
+}
+
+.banner li {
+    list-style: none;
+}
+
+.banner ul li {
+    float: left;
+}

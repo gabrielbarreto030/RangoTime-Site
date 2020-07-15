@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<head>
+  <link rel='stylesheet' type='text/css' href='css/index.css'>
+  <link rel='stylesheet' type='text/css' href='css/animation.css'>
+
+  <link rel='stylesheet' type='text/css' href="css/style.css">
+  <script src='js/jquery-2.2.4.min.js'></script>
+  <script src='js/slider.js'></script>
+
+  <script src='js/authetiction.js'></script>
+
+
+</head>
+
+<body>
+  <header>
+    <div id="cabecalho">
+      <ul class="nav">
+        <li><a onclick="Print()" href='#Sobre-nós'>Sobre nós</a></li>
+        <li><a href='#phone'>Contato</a></li>
+        <li><img src="imgs/Logo.png"></li>
+        <li><a href='#menu'>Cardapio</a></li>
+        <li><a href='#contact'>Fazer Pedido</a></li>
+      </ul>
+    </div>
+    <figure id="slide">
+      <img id='first' src="imgs/esfiha-salgada-aberta.png" alt="Imagem das Ilhas">
+      <img src="imgs/salgado_2.jpg" alt="Teste de Imagem">
+      <img src="imgs/salgado_3.jpg" alt="Teste de Imagem">
+    </figure>
+
+    <!--
+<div  id="slideshow">
+    <ul id='carrosel'>
+      <li>
+        
+        <img src='imgs/esfiha-salgada-aberta.png'  width="100%" height="100%"></li>
+      <li>
+      
+      <img src='imgs/salgado_2.jpg' width="100%" height="100%"></li>
+       
+      <li>
+        <img src='imgs/salgado_3.jpg' width="100%" height="100%"></li>
+    </ul>
+   
+  </div>
+
+  -->
+
+  </header>
+
+
+  <section id="introduction">
+    <div id="introduction-content">
+      <h1 id='Sobre-nós'>Sobre nós</h1>
+      <p>
+        Prazer!! Somos a RangoTime um serviço Delivery de Salgados de Festa especializada em entrega
+        por agendamento. Nós temos diversos salgados e +20 sabores de esfirras Doces e Salgadas.
+        Trabalhamos por encomenda e aplicativos Delivery.
+      </p>
+    </div>
+  </section>
+  <section id='menu'>
+    <div id='menu-content'>
+      <h1>Salgados</h1>
+      <ul>
+        <li><img src="imgs/bolinho de queijo.png">
+          <p>bolinho de queijo</p>
+        </li>
+        <li><img src='imgs/coxinha.png'>
+          <p>Coxinha</p>
+        </li>
+        <li><img src='imgs/esfiha-salgada-aberta-1.png'>
+          <p>Esfirra</p>
+        </li>
+      </ul>
+      <ul>
+        <li><img src='imgs/enroladinho-frito-de-salsicha.png'>
+          <p>Enroladinho de salsicha</p>
+        </li>
+        <li><img src='imgs/kibe.png'>
+          <p>Kibe</p>
+        </li>
+        <li><img src='imgs/fogassa.png'>
+          <p>Fogazza</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section id='contact'>
+    <div id='confirmacao'></div>
+    <img src='imgs/cozinheiro.png' width="33%" height="33%">
+    <div id='form'>
+      <h1>Faça seu Pedido!!!</h1>
+      <input type='text' placeholder="Nome" id='name'>
+      <p id='texterro' class="fraseerro"></p>
+      <input type='text' placeholder="Telefone" id='telefone'>
+      <p id='telerro' class="fraseerro"></p>
+      <textarea placeholder="Descreva seu pedido" id='mensagem'></textarea>
+      <!--<button id='enviar' onclick="form()"  >Fazer pedido</button> -->
+      <input type="submit" onclick="formulario()" value="Fazer pedido" id='enviar'>
+
+
+    </div>
+
+  </section>
+
+  <footer id='footer'>
+    <div id='footer-start' class="footer">
+      <div id='footer-start-card'>
+        <img src='imgs/mastercard.png' class="card">
+        <img src='imgs/visa.png' class="card">
+        <img src='imgs/elo.png' class="card">
+        <img src='imgs/American-Express-Amex.png' class="card">
+      </div>
+      <p>Fazemos pedido no cartão
+        em até <bold>6X sem juros</bold>
+      </p>
+    </div>
+    <div id='footer-center' class="footer">
+      <p>GkingProductions</p>
+      <p>CopyRight 2020</p>
+    </div>
+    <div id='footer-end' class="footer">
+      <p>Rua Fulano de Tau Atacado , nº 000 - Vila Nenhum
+        São Paulo/SP</p>
+
+      <p id='phone'><img src="imgs/phoneTrans.png" id='telefone'>(11) 9999-9999</p>
+      <P>Entregas para toda Região Metropolitana</P>
+    </div>
+  </footer>
+</body>
+<html>
