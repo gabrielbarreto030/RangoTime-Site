@@ -16,3 +16,6 @@ A website in HTML + CSS + JS about a Snack Shop
 <li>Slider</li>
 
 <li>FlexBox</li>
+
+<h2>
+Feel free to make any change requests</h2>
